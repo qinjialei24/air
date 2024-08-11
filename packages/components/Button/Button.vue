@@ -5,6 +5,6 @@ defineOptions({
 </script>
 <template>
   <button  class="air-button">
-    button
+    button22
   </button>
 </template>

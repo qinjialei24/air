@@ -16,7 +16,6 @@
   },
   "dependencies": {
     "vue": "^3.4.37",
-    "@air/utils": "workspace:*",
-    "@air/components": "workspace:*"
+    "@air/utils": "workspace:*"
   }
 }

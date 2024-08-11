@@ -21,8 +21,15 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": [
-    "src/**/*.ts', 'src/**/*.tsx",
-    "src/**/*.vue"
+    "env.d.ts",
+    "packages/**/*.ts",
+    "packages/**/*.tsx",
+    "packages/**/*.vue",
+    "vitest.config.ts"
   ],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  // "references": [
+  //   {
+  //     "path": "./tsconfig.node.json"
+  //   }
+  // ]
 }

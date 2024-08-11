@@ -8,6 +8,12 @@ importers:
 
   .:
     dependencies:
+      '@air/theme':
+        specifier: workspace:*
+        version: link:packages/themes
+      '@air/utils':
+        specifier: workspace:*
+        version: link:packages/utils
       '@fortawesome/fontawesome-svg-core':
         specifier: ^6.5.1
         version: 6.6.0
@@ -17,6 +23,9 @@ importers:
       '@fortawesome/vue-fontawesome':
         specifier: ^3.0.6
         version: 3.0.8(@fortawesome/fontawesome-svg-core@6.6.0)(vue@3.4.37)
+      air-ui:
+        specifier: workspace:*
+        version: link:packages/core
     devDependencies:
       '@types/lodash-es':
         specifier: ^4.17.12

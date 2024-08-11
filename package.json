@@ -1,5 +1,5 @@
 {
-  "name": "air",
+  "name": "@air/workspace",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -30,6 +30,9 @@
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
-    "@fortawesome/vue-fontawesome": "^3.0.6"
+    "@fortawesome/vue-fontawesome": "^3.0.6",
+    "@air/utils": "workspace:*",
+    "@air/theme": "workspace:*",
+    "air-ui": "workspace:*"
   }
 }
